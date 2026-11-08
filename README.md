@@ -5,20 +5,16 @@
 ## 跑起来
 
 ```bash
-npm install
-npm run dev          # http://localhost:3000   （Next 默认端口是 3000）
+pnpm install
+pnpm dev          # http://localhost:3000   （Next 默认端口是 3000）
 ```
 
-## 把你的 4.4 项目（`zero-to-tech`）迁成这样：整包替换
+生产构建使用 `pnpm build`，启动生产服务器使用 `pnpm start`。
+`zero-to-tech-demos/` 是独立的学习资料目录，不随本仓库提交；可以按需单独克隆：
 
-1. 把 `~/zero-to-tech` 里**除隐藏的 `.git` 外的所有文件删掉**。
-2. 把本 demo 下的所有文件拷进去（`node_modules`、`.next` 不用拷）。
-3. 跑起来确认还是那个网站：
-   ```bash
-   npm install
-   npm run dev          # http://localhost:3000
-   ```
-4. 确认无误后 `git add` / `commit` / `push`。
+```bash
+git clone https://github.com/joylibo/zero-to-tech-demos.git
+```
 
 ## 项目结构
 
