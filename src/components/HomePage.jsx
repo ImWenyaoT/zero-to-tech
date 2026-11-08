@@ -1,7 +1,7 @@
-import Nav from "../../zero-to-tech-demos/zero-to-tech-4-4/src/components/Nav.jsx";
-import PageHeading from "../../zero-to-tech-demos/zero-to-tech-4-4/src/components/PageHeading.jsx";
-import AnimatedCardGrid from "../../zero-to-tech-demos/zero-to-tech-4-4/src/components/AnimatedCardGrid.jsx";
-import { home } from "../../zero-to-tech-demos/zero-to-tech-4-4/src/data/site.js";
+import Nav from "./Nav.jsx";
+import PageHeading from "./PageHeading.jsx";
+import AnimatedCardGrid from "./AnimatedCardGrid.jsx";
+import { home } from "../data/site.js";
 
 // 注意：这个组件里几乎一个"内容"都没写死——
 // 标题、副标题、作品文案、座右铭……全部从 site.js 的 home 里读。

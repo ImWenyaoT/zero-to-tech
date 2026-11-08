@@ -1,6 +1,8 @@
 {
   "name": "zero-to-tech",
   "version": "1.0.0",
+  "packageManager": "pnpm@12.16.1",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,6 +11,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^6.2.1",
     "vite": "^8.3.4"
   },
   "dependencies": {

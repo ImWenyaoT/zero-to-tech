@@ -156,3 +156,19 @@ initScoreAnim();
 > 项目长大了，"全堆在一起 + 手排 `<script>` 顺序 + 全靠 window 全局"的旧组织方式撑不住了。
 > **模块化**把每个文件的依赖写进代码里、给每个文件一份独立作用域——
 > 这就是工程化迈出的第一步。
+# 本地开发
+
+本项目使用 pnpm 管理依赖。安装依赖并启动开发服务器：
+
+```bash
+pnpm install
+pnpm dev
+```
+
+运行 `pnpm build` 生成可部署的 `dist/`，运行 `pnpm preview` 在本地预览构建结果。
+
+`zero-to-tech-demos/` 是单独克隆的学习资料，不属于本项目的 Git 仓库。需要时可以将它克隆到项目根目录，再从中复制内容到 `src/`：
+
+```bash
+git clone https://github.com/joylibo/zero-to-tech-demos.git
+```

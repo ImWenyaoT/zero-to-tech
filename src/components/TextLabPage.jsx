@@ -1,9 +1,9 @@
-import Nav from "../../zero-to-tech-demos/zero-to-tech-4-4/src/components/Nav.jsx";
-import PageHeading from "../../zero-to-tech-demos/zero-to-tech-4-4/src/components/PageHeading.jsx";
-import AnimatedCardGrid from "../../zero-to-tech-demos/zero-to-tech-4-4/src/components/AnimatedCardGrid.jsx";
+import Nav from "./Nav.jsx";
+import PageHeading from "./PageHeading.jsx";
+import AnimatedCardGrid from "./AnimatedCardGrid.jsx";
 import InputCard from "./InputCard.jsx";
-import ResultCard from "../../zero-to-tech-demos/zero-to-tech-4-4/src/components/ResultCard.jsx";
-import { textLab } from "../../zero-to-tech-demos/zero-to-tech-4-4/src/data/site.js";
+import ResultCard from "./ResultCard.jsx";
+import { textLab } from "../data/site.js";
 
 // 整页就是几块积木拼起来的：导航、标题、输入卡、结果卡。
 // TextLabPage 这个"大组件"，把这些小组件摆在一起，拼成一整页。
