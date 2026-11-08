@@ -9,7 +9,7 @@ pnpm install
 pnpm dev          # http://localhost:3000   （Next 默认端口是 3000）
 ```
 
-生产构建使用 `pnpm build`，启动生产服务器使用 `pnpm start`。
+生产构建使用 `pnpm build`，生成的静态站点位于 `out/`，可由 Nginx 提供访问。GitHub Actions 会在推送和拉取请求时检查静态构建；当前不包含自动部署。
 `zero-to-tech-demos/` 是独立的学习资料目录，不随本仓库提交；可以按需单独克隆：
 
 ```bash
@@ -33,7 +33,7 @@ components/
   AnimatedCardGrid.jsx   ← 同 4.4（"use client"）
 css/                     ← 8 个 css，同 4.4
 data/site.js             ← 同 4.4
-next.config.mjs          ← 空 {}
+next.config.mjs          ← 配置静态导出
 ```
 
 相比 4.4，没了 `index.html`、`src/main.jsx`、`src/App.jsx`、`src/router/useRoute.js`——这一坨被 `app/` 取代了。
